@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string>
+#include <time.h>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    while (true) {
+        //varuables
+        string choice = "";
+        string question = "";
+        string answer = "";
+        string UserAnswer = "";
+        
+        //themes
+        string Computer_components[] {
+            "Central Processing Unit", "Motherboard", "Power supplies"
+        };
+        string Animals[] {
+            "Monkey", "Parrot", "Zebra"
+        };
+        string Kitchen[] {
+            "Cutting board", "Grater", "Peeler"
+        };
+        string Geography[] {
+            "The Pacific Ocean", "Africa", "Tokyo"
+        };
+        string History[] {
+            "George Washington", "1939", "Joseph Stalin"
+        };
+        string Anime[] {
+            "Naruto Uzumaki", "Titans", "Dragon Ball"
+        };
