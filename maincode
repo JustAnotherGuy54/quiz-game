@@ -53,3 +53,59 @@ int main()
         else if  (choice == "Anime") {
             answer =  Anime[rand() % 3 + 1]; 
         };
+        // questions
+        if (answer == "Central Processing Unit") {
+            cout << "This component is called the Computer Head \n";
+        }
+        else if (answer == "Motherboard") {
+            cout << "It holds and allows communication between many of the crucial electronic components of a system \n";
+        }
+        else if (answer == "Power supplies") {
+            cout << "It converts mains AC to low-voltage regulated DC power for the internal components of a desktop computer \n";
+        }
+        else if (answer == "Monkey") {
+            cout << "This animal love bananas so much \n";
+        }
+        else if (answer == "Parrot") {
+            cout << "It is a popular bird from africa \n";
+        }
+        else if (answer == "Zebra") {
+            cout << "Striped horse-like animal from africa \n";
+        }
+        else if (answer == "Cutting board") {
+            cout << "Thing for cutting vegetables and fruits \n";
+        }
+        else if (answer == "Grater") {
+            cout << "Shredder for food \n";
+        }
+        else if (answer == "Peeler") {
+            cout << "This kitchen tool removes vegetables skin \n";
+        }
+        else if (answer == "The Pacific Ocean") {
+            cout << "What is the largest ocean on Earth? \n";
+        }
+        else if (answer == "Africa") {
+            cout << "Which continent is considered the homeland of elephants? \n";
+        }
+        else if (answer == "Tokyo") {
+            cout << "What city is the capital of Japan? \n";
+        }
+        else if (answer == "George Washington") {
+            cout << "Who was the first President of the United States? \n";
+        }
+        else if (answer == "1939") {
+            cout << "In what year did World War II begin? \n";
+        }
+        else if (answer == "Joseph Stalin") {
+            cout << "Who was the leader of the Soviet Union during World War II? \n";
+        }
+        else if (answer == "Naruto Uzumaki") {
+            cout << "What is the name of the main character in the anime 'Naruto'? \n";
+        }
+        else if (answer == "Titans") {
+            cout << "In 'Attack on Titan,' what are the giant humanoid creatures that threaten humanity called? \n";
+        }
+        else if (answer == "Dragon Ball") {
+            cout << "Which anime features a character named Goku who is a Saiyan warrior? \n";
+        }
+
