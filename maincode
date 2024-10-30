@@ -32,3 +32,24 @@ int main()
         string Anime[] {
             "Naruto Uzumaki", "Titans", "Dragon Ball"
         };
+        cout << "Select a theme: \n" << "Computer components \n" << "Animals \n" << "Kitchen \n" << "Geography \n" << "History \n" << "Anime \n";
+        cin >> choice;
+        
+        if (choice == "Computer components") {
+            answer =  Computer_components[rand() % 3 + 1]; 
+        }
+        else if (choice == "Animals") {
+            answer =  Animals[rand() % 3 + 1]; 
+        }
+        else if  (choice == "Kitchen") {
+            answer =  Kitchen[rand() % 3 + 1]; 
+        }
+        else if  (choice == "Geography") {
+            answer =  Geography[rand() % 3 + 1]; 
+        }
+        else if  (choice == "History") {
+            answer =  History[rand() % 3 + 1]; 
+        }
+        else if  (choice == "Anime") {
+            answer =  Anime[rand() % 3 + 1]; 
+        };
