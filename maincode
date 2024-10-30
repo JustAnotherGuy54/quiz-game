@@ -108,4 +108,16 @@ int main()
         else if (answer == "Dragon Ball") {
             cout << "Which anime features a character named Goku who is a Saiyan warrior? \n";
         }
+        // win or lose
+        cin.ignore();
+        getline(cin,UserAnswer);
+        if (UserAnswer == answer) {
+            cout << "You're right! \n";
+            break;
+        }
+        else {
+            cout << "You lose \n";
+        }
+    }
+}
 
